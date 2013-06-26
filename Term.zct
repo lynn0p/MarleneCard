@@ -1,0 +1,54 @@
+[Breakpoints]
+Breakpoint0=File(&quote;Y:/opl/dev/basiccard/MarleneCard/Term.bas&quote;,80)
+
+[Card Readers]
+COM1=Auto
+COM2=Auto
+COM3=Auto
+COM4=Auto
+
+[Compiler]
+ExeFile=false
+ImageFile=false
+ListingFile=false
+MapFile=false
+SourceFile=Term.bas
+
+[Console Window]
+Bottom=980
+Left=160
+Right=820
+ShowCmd=1
+Top=638
+
+[FreeMem Window]
+Block0=&quote;=my,fAB7L,_jjgu_+=LR*{`;J;ng1.|J&gt;a=00}.rPbME^Sh&amp;a}P`G_M
+CRC=0x0776ef12
+Hex=false
+Length=46
+Visible=false
+
+[Terminal Program]
+ComPort=100
+SaveEEPROM=false
+
+[Window Geometry]
+Block0=&quote;=my,fAB7L,_k9^KiT&apos;&gt;j(lsUp)(wZt9SvH*?UYs9u&quote;QO%9!cb&quote;1&quote;sui
+CRC=0xb31b61cb
+Length=46
+
+[Window Options]
+EvalDialogHex=true
+IOToolTipEnabled=true
+ShowRegisters=Auto
+
+[Window State]
+Block0=&quote;juy(J&amp;&amp;NwRR3wW/;svz\6R`xIA&gt;P({9|a&amp;Y&lt;}3Z79]trp66tQ~cUM67:d_Fb0}JwmpS
+Block1=DQ@J&gt;fF=OZgn/zNwEbn_j=XW[V:e-|pd6pZ,rM#gq&amp;(fLRPoLY}~~4ML/n.7iNK&lt;Q)A@;v{
+Block2=l&gt;r(#\}&gt;GWa,7p7L;&quote;=$@B&apos;@]e71-*m/Z}j_v:q~|NPly4m3N=vRWdGc1qA17d`ez%-!
+Block3=.=5&quote;6PM%6;~]mE5k7%$9v^sw|Y:)bY4|?A&apos;r_=M7W`(+_&amp;W7w=;^bViOBIxhY{v,bip|PK
+Block4=%eIN\&apos;NY-_]P?Z(2yiqG[yE?rp5%yHbQmjp,|{z-)vJBp(x%c]qe&quote;MU*}rDIm,A`V6,c:S
+Block5=ICXY]Or07iFR,Y#KEVRAJVG&amp;Ub&amp;}uzew&apos;OHJ/+u~XqN4gXJG)\G6{5,(j1N~WHIh/3pgtf
+Block6=!
+CRC=0xb1036419
+Length=356

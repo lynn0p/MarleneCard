@@ -1,0 +1,30 @@
+
+
+REM commands that don't require a PIN
+Declare Command &H01 &H00 Nuke()
+Declare Command &H01 &H02 GetContactInfo(LC=0, info as String)
+Declare Command &H01 &H04 GetHostData(LC=0, port as Long, host as String)
+Declare Command &H01 &H06 GetVersion(LC=0, version as String*4)
+
+REM commands that require a PIN
+Declare Command &H01 &H20 SayHello(pin as String*4, disable le)
+Declare Command &H01 &H22 GetBalance(pin as String*4, balance as String*8)
+Declare Command &H01 &H24 GetReceivingAddress(pin as String*4, bcaddr as String)
+Declare Command &H01 &H26 MakePayment(pin as String*4, amount as String*8, bcaddr as String)
+Declare Command &H01 &H28 GetPaymentStatus(pin as String*4, status as String*4, txid as String*32)
+Declare Command &H01 &H2a SayGoodbye(pin as String*4, disable le)
+Declare Command &H01 &H2c GetTxFee(pin as String*4, txfee as String*8)
+Declare Command &H01 &H2e CheckErrorCode(pin as String*4, status as String*4)
+
+Declare Command &H01 &H30 SetServerResponse(pin as String*4,flag as Integer,chunk as String, disable le)
+Declare Command &H01 &H32 ParseServerResponse(pin as String*4, disable le)
+Declare Command &H01 &H34 GetCardRequestLength(pin as String*4, length as Long) 
+Declare Command &h01 &H36 ReadCardRequest(pin as String*4,pos as Integer,chunk as String)
+
+REM commands that require a passphrase
+Declare Command &H01 &H40 SetNewPIN(pass as String*32, newpin as String*4)
+Declare Command &H01 &H42 SetNewPassphrase(old as String*32, new as String*32)
+Declare Command &H01 &H44 SetPublicKeyData(pass as String*32, flag as Integer, chunk as String, disable le)
+Declare Command &H01 &H46 SetContactInfo(pass as String*32, info as String, disable le)
+Declare Command &H01 &H48 SetHostData(pass as String*32, port as Long, host as String, disable le)
+Declare Command &H01 &H4a SetWalletPassphrase(pass as String*32, wpass as String, disable le)

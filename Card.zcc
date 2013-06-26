@@ -1,0 +1,57 @@
+[BasicCard]
+ConfigFile=Pro\ZC75_D.zcf
+
+[Breakpoints]
+Breakpoint0=Procedure(&quote;ReadCardRequest&quote;)
+Breakpoint1=File(&quote;Y:/opl/dev/basiccard/MarleneCard/Card.bas&quote;,169)
+
+[Card Reader]
+PhysicalReader=100
+VirtualReader=201
+
+[Compiler]
+ImageFile=false
+ListingFile=false
+MapFile=false
+SourceFile=Card.bas
+
+[Counters Window]
+Block0=&quote;=my,fAB7L,_jjgu_+=LR*{PO$PPmo&amp;#W}uy;]^]g+d&amp;YrQr|zIm%r.7
+CRC=0x00d8684b
+Hex=false
+Length=46
+Visible=false
+
+[Files Window]
+Block0=&quote;=my,fAB7L,_jjgu_+=LR*{{F-/F[jxhfJ@;mJ~AGwB~Egi9@P&apos;mmU[%
+CRC=0x660a1d91
+Length=46
+Visible=false
+
+[FreeMem Window]
+Block0=&quote;=my,fAB7L,_jjgu_+=LR*{`;J;ng1.|J&gt;a=00}.rPbME^Sh&amp;a}P`G_M
+CRC=0x0776ef12
+Hex=false
+Length=46
+Visible=false
+
+[Window Geometry]
+Block0=&quote;=my,fAB7L,_lyGz.N0#7vep(&quote;L/fx]dFl_m5.hXOREr4-!U?1AC1(wQ
+CRC=0xf5593257
+Length=46
+
+[Window Options]
+EvalDialogHex=true
+IOToolTipEnabled=true
+ShowRegisters=Auto
+
+[Window State]
+Block0=&quote;juy(J&amp;&amp;NwRR3wW/;svz\6R`xIA&gt;P({9|a&amp;Y&lt;}3Z79]trp66tQ~cUM67:d_Fb0}JwmpS
+Block1=DQ@J&gt;fF=OZgn/zNwEbn_j=XW[V:e-|pd6pZ,rM#gq&amp;(fLRPoLY}~~4ML/n.7iNK&lt;Q)A@;v{
+Block2=l&gt;r(#\}&gt;GWa,7p7L;&quote;=$@B&apos;@]e71-*m/Z}j_v:q~|NPly4m3N=vRWdGc1qA17d`ez%-!
+Block3=.=5&quote;6PM%6;~]mE5k7%$9v^sw|Y:)bY4|?A&apos;r_=M7W`(+_&amp;W7w=;^bViOBIxhY{v,bip|PK
+Block4=%eIN\&apos;NY-_]P?Z(2yiqG[yE?rp5%yHbQmjp,|{z-)vJBp(x%c]qe&quote;MU*}rDIm,A`V6&lt;{/}
+Block5=NG=_}|Dz\:C1&lt;wc#R]BfrR*$8z{*!GOUTF$0J&quote;&apos;7mY!P&apos;B%xyV=QpzgNeW]_WqJ?=|&lt;.|*
+Block6=!
+CRC=0x8d663da0
+Length=356
