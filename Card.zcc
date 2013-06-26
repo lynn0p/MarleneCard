@@ -1,10 +1,6 @@
 [BasicCard]
 ConfigFile=Pro\ZC75_D.zcf
 
-[Breakpoints]
-Breakpoint0=Procedure(&quote;ReadCardRequest&quote;)
-Breakpoint1=File(&quote;Y:/opl/dev/basiccard/MarleneCard/Card.bas&quote;,169)
-
 [Card Reader]
 PhysicalReader=100
 VirtualReader=201

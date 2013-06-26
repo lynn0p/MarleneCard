@@ -1,6 +1,3 @@
-[Breakpoints]
-Breakpoint0=File(&quote;Y:/opl/dev/basiccard/MarleneCard/Term.bas&quote;,80)
-
 [Card Readers]
 COM1=Auto
 COM2=Auto
